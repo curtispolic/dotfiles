@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# Install zsh
+sudo apt install zsh
+chsh -s $(which zsh)
+
+# Configure the symlink for zsh
+ln -s ~/dotfiles/.zshrc ~/.zshrc
