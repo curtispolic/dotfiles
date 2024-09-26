@@ -1,0 +1,21 @@
+#! /bin/bash
+
+# Get the positional hostname
+HOSTNAME=$1
+
+# Ask for ssh passphrase
+ssh-add
+
+# Copy my dotfiles
+scp \
+	-o StrictHostKeyChecking=no \
+	-i ~/.ssh/id_rsa \
+	-q \
+	-r ~/dotfiles root@${HOSTNAME}:/var/root/
+
+# SSH connection
+ssh \
+	-o StrictHostKeyChecking=no \
+	-i ~/.ssh/id_rsa \
+	root@${HOSTNAME} \
+	-t 'ZDOTDIR="/var/root/dotfiles" zsh'
