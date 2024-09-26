@@ -18,4 +18,4 @@ ssh \
 	-o StrictHostKeyChecking=no \
 	-i ~/.ssh/id_rsa \
 	root@${HOSTNAME} \
-	-t 'ZDOTDIR="/var/root/dotfiles" zsh'
+	-t 'ZDOTDIR="/var/root/dotfiles" zsh; rm -rf /var/root/dotfiles'
