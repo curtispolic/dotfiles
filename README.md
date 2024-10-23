@@ -1,5 +1,14 @@
 # Curtis Polic personal dotfiles
 
+### Required packages
+- Hyprland
+- ZSH
+- Oh-My-ZSH
+- swww
+- swaync
+- rofi
+- hyprpolkitagent
+
 ### Hyprland
 hyprland/hyprland.conf belongs in ~/.config/hypr/hyprland.conf
 
