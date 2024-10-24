@@ -6,7 +6,7 @@
 - Oh-My-ZSH
 - swww
 - swaync
-- rofi
+- fuzzel
 - hyprpolkitagent
 
 ### Hyprland
