@@ -1,11 +1,11 @@
 # Curtis Polic personal dotfiles
 
 ### Required packages
-- Hyprland and ecosystem
--- hyprpaper
+- Hyprland
 -- hyprlock
+- Hyprpanel (from github not AUR)
 - ZSH and Oh-My-ZSH
-- swaync
+- swww
 - fuzzel
 - hyprpolkitagent
 
