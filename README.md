@@ -1,16 +1,16 @@
 # Curtis Polic personal dotfiles
 
 ### Required packages
-- Hyprland
-- ZSH
-- Oh-My-ZSH
-- swww
+- Hyprland and ecosystem
+-- hyprpaper
+-- hyprlock
+- ZSH and Oh-My-ZSH
 - swaync
 - fuzzel
 - hyprpolkitagent
 
 ### Hyprland
-hyprland/hyprland.conf belongs in ~/.config/hypr/hyprland.conf
+hypr links to ~/.config/hypr
 
 ### ZSH
 zsh/.zshrc belongs in ~/.zshrc
